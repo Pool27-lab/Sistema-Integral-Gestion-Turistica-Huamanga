@@ -121,7 +121,38 @@ La arquitectura propuesta responde principalmente a los drivers arquitectónicos
 * DA05 — Persistencia de información.
 * DA06 — Mantenibilidad.
 
-# 6. Diagrama de Arquitectura Inicial
+# 6. Estilo Arquitectónico y Enfoque Arquitectónico
+
+## 6.1. Estilo arquitectónico seleccionado
+
+Para el Sistema Integral de Gestión Turística de Huamanga se propone el **estilo arquitectónico en capas**, organizado en tres niveles: Presentación, Lógica de Negocio y Datos.
+
+Este estilo permite separar las responsabilidades del sistema, facilitando la organización de sus funcionalidades y el mantenimiento de sus componentes.
+
+## 6.2. Enfoque arquitectónico
+
+Se adopta un **enfoque basado en la separación de responsabilidades y los atributos de calidad**. Se priorizan la mantenibilidad, la seguridad, el rendimiento y la escalabilidad.
+
+Este enfoque busca que cada capa cumpla una función específica, que las operaciones se procesen mediante la lógica de negocio y que el acceso a la información se realice a través de la capa de Datos.
+
+## 6.3. Justificación de la elección
+
+La elección se fundamenta en los requisitos funcionales y atributos de calidad identificados durante el análisis del sistema.
+
+- **Mantenibilidad:** facilita actualizar los módulos sin afectar innecesariamente a los demás.
+- **Seguridad:** permite centralizar la validación de permisos en la lógica de negocio.
+- **Rendimiento:** favorece la organización del procesamiento de búsquedas y consultas.
+- **Escalabilidad:** proporciona una estructura que puede ampliarse conforme aumenten las funcionalidades y los usuarios.
+
+## 6.4. Relación con los drivers arquitectónicos
+
+La decisión se relaciona con DA01, que establece la arquitectura en tres capas, y con DA02, DA03, DA04, DA05 y DA06, que representan las necesidades de rendimiento, escalabilidad, seguridad, persistencia y mantenibilidad.
+
+## 6.5. Resultado esperado
+
+La arquitectura propuesta proporcionará una estructura organizada para desarrollar el sistema turístico. Su implementación deberá comprobarse durante el desarrollo, verificando que cada componente respete las responsabilidades definidas.
+
+# 7. Diagrama de Arquitectura Inicial
 
 ```mermaid
 flowchart TD
