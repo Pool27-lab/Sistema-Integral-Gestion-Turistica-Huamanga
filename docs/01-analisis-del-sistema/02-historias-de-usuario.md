@@ -101,3 +101,18 @@ Las historias de usuario describen las necesidades del sistema desde la perspect
 **Como** administrador,
 **quiero** gestionar las rutas turísticas,
 **para** mantener disponibles recorridos turísticos actualizados.
+
+
+Historia	Criterios de aceptación principales
+HU01	Mostrar atractivos publicados y sus datos básicos.
+HU02	Permitir buscar servicios y mostrar coincidencias o indicar que no hay resultados.
+HU03	Mostrar eventos y festividades registrados y publicados.
+HU04	Mostrar las rutas turísticas disponibles y su información registrada.
+HU05	Presentar los detalles disponibles de un servicio seleccionado.
+HU06	Validar los datos obligatorios antes de registrar un servicio.
+HU07	Permitir actualizar servicios propios o aquellos para los que el prestador tenga autorización.
+HU08	Permitir al administrador registrar y modificar establecimientos.
+HU09	Permitir al administrador realizar las operaciones de gestión de usuarios autorizadas.
+HU10	Permitir al administrador registrar y modificar atractivos turísticos.
+HU11	Permitir al administrador registrar y modificar eventos y festividades.
+HU12	Permitir al administrador registrar y modificar rutas turísticas.
